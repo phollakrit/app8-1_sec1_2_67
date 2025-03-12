@@ -1,8 +1,5 @@
-import React from "react";
-import FormPost from "./form-post";
+import DBNav from './db-nav'
 
-function App() {
-  return <FormPost/>   
+export default function App(){
+  return <DBNav/>
 }
-
-export default App;
