@@ -1,9 +1,7 @@
 const mongoose = require('mongoose')
 const paginate = require('mongoose-paginate-v2')   //สำหรับแบ่งเพจ
 
-mongoose.connect('mongodb://localhost:27017/db1', {
-    useNewUrlParser: true, useUnifiedTopology: true
-})
+mongoose.connect('mongodb://localhost:27017/db1')
 .then(result => console.log('Connection OK'))
 .catch(err => console.log(err))
 
